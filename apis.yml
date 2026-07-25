@@ -1,20 +1,45 @@
 aid: crownit
 name: CrownIT
-description: 'CrownIT is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: "CrownIT (Crownit.in) is India's online market-research and consumer-insights platform,
+  now acquired by Ipsos, the world's leading market research company. Operating as a full-stack agency,
+  Crownit conducts online surveys and tracks purchase and consumption behavior via shopping bills and
+  product photos submitted through its mobile app, applying machine learning and big-data analytics to
+  deliver fast, accurate and comprehensive consumer insights to over 200 brands and enterprises across
+  40+ Indian cities. Backed by Accel and surfaced in the API Evangelist network as a VC-portfolio
+  company profile; Crownit runs a consumer rewards and survey application rather than a public developer
+  API, so this profile carries company identity only and has no OpenAPI, developer portal, or API
+  artifacts."
 url: https://raw.githubusercontent.com/api-evangelist/crownit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
+x-acquired-by: ipsos
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://crownit.in/assets/image/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Market Research
+- Consumer Insights
+- Surveys
+- Data Analytics
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://crownit.in/
+- type: Blog
+  url: https://blog.crownit.in/
+- type: PrivacyPolicy
+  url: https://crownit.in/en/privacy-policy
+- type: TermsOfService
+  url: https://crownit.in/en/term
+- type: Support
+  url: https://crownit.in/en/contact-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
